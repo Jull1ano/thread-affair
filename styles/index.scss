@@ -1,20 +1,22 @@
 @import './fonts';
 
 // fontawesome
-@import './../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss';
-@import './../node_modules/@fortawesome/fontawesome-free/scss/brands.scss';
-@import './../node_modules/@fortawesome/fontawesome-free/scss/regular.scss';
-@import './../node_modules/@fortawesome/fontawesome-free/scss/solid.scss';
+@import './../node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+// ~ = alias pt node_modules
+@import '~@fortawesome/fontawesome-free/scss/solid';
 
-//bootstrap
-@import './../node_modules/bootstrap/scss/bootstrap-reboot.scss';
-@import './../node_modules/bootstrap/scss/bootstrap-grid.scss';
-@import './../node_modules/bootstrap/scss/bootstrap-utilities.scss';
+// bootstrap
+@import './../node_modules/bootstrap/scss/bootstrap-reboot';
+@import './../node_modules/bootstrap/scss/bootstrap-grid';
+@import './../node_modules/bootstrap/scss/bootstrap-utilities';
 // @import './../node_modules/bootstrap/scss/images';
 
 @import 'variables';
-@import 'reset';
+@import './reset';
 
+// site
 @import './shared/index';
 
 body {
