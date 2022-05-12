@@ -1,5 +1,5 @@
-import ProductTile from -./catalog/product-tile-;
-import HomeNewsletter from -./homepage/home-newsletter-;
+import ProductTile from './catalog/product-tile';
+import HomeNewsletter from './homepage/home-newsletter';
 
 export default function Main() {
   return (
@@ -114,7 +114,7 @@ export default function Main() {
 
             <p>
               Accomplish new achievements with a bold new style from the
-              brilliant collection of men-s designer suits.
+              brilliant collection of men’s designer suits.
             </p>
             <p>
               For the finest custom tailored experience, be sure to explore our
@@ -152,7 +152,7 @@ export default function Main() {
 
             <p>
               Accomplish new achievements with a bold new style from the
-              brilliant collection of men’s designer suits.
+              brilliant collection of men-s designer suits.
             </p>
             <p>
               For the finest custom tailored experience, be sure to explore our
